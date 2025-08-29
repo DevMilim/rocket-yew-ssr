@@ -1,0 +1,1 @@
+# Yew SSR template test
