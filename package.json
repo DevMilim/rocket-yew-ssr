@@ -1,0 +1,20 @@
+{
+    "name": "milim-app",
+    "version": "1.0.0",
+    "description": "This template should help get you started developing with Tauri and Yew.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i ./main.css -o ./public/out.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.13",
+        "autoprefixer": "^10.4.21",
+        "daisyui": "^5.1.8",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.13"
+    }
+}
