@@ -1,7 +1,16 @@
 [build]
-target = "index.html"
-dist = "dist"
+target = "./index.html"
 filehash = false
+
+[watch]
+ignore = []
 
 [serve]
 port = 3000
+open = false
+adress = "0.0.0.0"
+
+[[hooks]]
+stage = "pre_build"
+command = "npm"
+command_arguments = ["run", "build"]
